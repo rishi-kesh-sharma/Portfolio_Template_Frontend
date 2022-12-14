@@ -3,7 +3,7 @@ import reducer from "./reducer";
 
 const AppContext = React.createContext();
 
-const API = "https://thapareactapi.up.railway.app";
+// const API = "https://thapareactapi.up.railway.app";
 
 const intialState = {
   name: "",
@@ -18,7 +18,7 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "HOME_UPDATE",
       payload: {
-        name: "Thapa Technical",
+        name: "Rishikesh Sharma",
         image: "./images/hero.svg",
       },
     });
@@ -28,7 +28,7 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "ABOUT_UPDATE",
       payload: {
-        name: "Vinod Thapa",
+        name: "Rishikesh Sharma",
         image: "./images/about1.svg",
       },
     });
@@ -47,7 +47,7 @@ const AppProvider = ({ children }) => {
 
   // to call the api
   useEffect(() => {
-    getServices(API);
+    // getServices(API);
   }, []);
 
   return (

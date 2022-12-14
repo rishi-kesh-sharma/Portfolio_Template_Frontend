@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-two-column">
           <div>
             <h3>Ready to get started?</h3>
-            <h3>Talk to us today</h3>
+            <h3>Talk to me today</h3>
           </div>
 
           <div className="contact-short-btn">
@@ -27,7 +27,7 @@ const Footer = () => {
       <footer>
         <div className="container grid grid-four-column">
           <div className="footer-about">
-            <h3>Thapa Technical</h3>
+            <h3>Rishikesh Sharma</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
 
@@ -47,28 +47,21 @@ const Footer = () => {
 
           {/* 3rs column  */}
           <div className="footer-social">
-            <h3>Follows Us</h3>
+            <h3>Follow Me</h3>
             <div className="footer-social--icons">
               <div>
-                <FaDiscord className="icons" />
-              </div>
-              <div>
                 <FaInstagram className="icons" />
-              </div>
-              <div>
                 <a
-                  href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                  target="_blank">
-                  <FaYoutube className="icons" />
-                </a>
+                  href="https://www.instagram.com/ri_c_sharma/"
+                  target="_blank"></a>
               </div>
             </div>
           </div>
 
           {/* 4th column  */}
           <div className="footer-contact">
-            <h3>Call Us</h3>
-            <h3>+91 12345678978</h3>
+            <h3>Call Me</h3>
+            <h3>+977 9825517464</h3>
           </div>
         </div>
 
@@ -77,7 +70,7 @@ const Footer = () => {
           <hr />
           <div className="container grid grid-two-column">
             <p>
-              @{new Date().getFullYear()} ThapaTechnical. All Rights Reserved
+              @{new Date().getFullYear()} Rishikesh Sharma. All Rights Reserved
             </p>
             <div>
               <p>PRIVACY POLICY</p>
